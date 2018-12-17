@@ -132,9 +132,9 @@ namespace osgOcean
         {
             /// Simple constructor zeroing all variables.
             ViewData()
-                : _dirty( true )
-                , _cv( NULL )
+                : _cv( NULL )
                 , _oceanScene( NULL )
+                , _dirty( true )
                 , _reflectionCamera(NULL)
                 , _refractionCamera(NULL)
                 , _heightmapCamera(NULL)
