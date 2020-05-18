@@ -77,6 +77,8 @@ namespace osgOcean
             {
                 setVertexArray( vertices );
                 setNormalArray( normals );
+                setNormalBinding( osg::Geometry::BIND_PER_VERTEX );
+                setColorBinding ( osg::Geometry::BIND_OVERALL );
             }
         }
 

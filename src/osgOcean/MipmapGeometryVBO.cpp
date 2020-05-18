@@ -52,8 +52,6 @@ namespace osgOcean
         ,_worldSize      ( worldSize )
     {
         setDataVariance ( osg::Object::DYNAMIC );
-        setNormalBinding( osg::Geometry::BIND_PER_VERTEX );
-        setColorBinding ( osg::Geometry::BIND_OVERALL );
         setUseDisplayList( false );
         setUseVertexBufferObjects( true );
     }
