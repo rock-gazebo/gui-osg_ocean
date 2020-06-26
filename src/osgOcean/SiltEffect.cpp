@@ -650,7 +650,7 @@ void SiltEffect::SiltDrawable::drawImplementation(osg::RenderInfo& renderInfo) c
 {
     if (!_geometry) return;
 
-#if OSG_VERSION_LESS_THAN(3,0,0)
+#if OSG_VERSION_LESS_THAN(3,4,0)
     const osg::Geometry::Extensions* extensions = osg::Geometry::getExtensions(renderInfo.getContextID(),true);
 #else
     State& state = *renderInfo.getState();
